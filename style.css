@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+h2 {
+    text-indent: 20px;
+   
+}
+
+.titlecontainer {
+    text-align: center;
+    position: fixed;
+    left: 30%;
+    right: 30%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+
+}
+
+p {
+    text-align: center;
+    text-indent: 10px;
+}
+
+.backgroundContent {
+    position: fixed;
+    height: 400px;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+   
+}
+ 
+.backgroundContent img {
+    height: 750px;
+    width: 100%;
+}
+
+.foregroundContent {
+    position: relative;
+    top: 750px;
+    background-color: rgb(216 211 211 / 90%);
+}
+
+.foregroundHeader {
+    margin: 0;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.belowheader {
+    padding: 20px;
+    margin: 5px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.mainpagetitle {
+    position: absolute;
+    display: block;
+    width:100%;
+    margin-top: 0;
+    float: left;
+    
+}
